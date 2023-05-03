@@ -1,0 +1,220 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Alkatra', cursive;
+}
+
+body {
+    background-color: cadetblue;
+}
+
+.menu {
+    text-align: center;
+
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu ul li {
+    list-style-type: none;
+    padding-right: 14px;
+
+}
+
+.menu ul li a {
+    color: black;
+}
+
+nav {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin: 10px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.Pers {
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.Personagens {
+    font-size: large;
+    font-weight: 100;
+    display: flex;
+    justify-content: space-around;
+}
+.PP h3{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.PP img {
+    box-shadow: 0px 7px 6px -1px rgba(0, 0, 0, 0.47);
+    border-radius: 50%;
+    height: 400px
+}
+
+#banner {
+    background-image: url("../img/banner.jpg");
+    height: 400px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    /*  margin: 10px;*/
+}
+#banner h2{
+    display: flex;
+    justify-content: center;
+}
+
+
+header {
+
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+header h1{
+    display: flex;
+    justify-content: center;
+
+}header h2{
+    display: flex;
+    justify-content: center;
+    
+}
+footer {
+    background-color: rgb(76, 128, 129);
+
+}
+
+footer div {
+    gap: 10px;
+    margin-left: 1%;
+}
+
+section div {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin: 10px;
+}
+
+section div img {
+    margin-bottom: 20px;
+}
+.temporadas{
+    margin-left: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+.temporadas h3{
+    font-size: 30px;
+}
+.temporadas h4{
+    font-size: 30px;
+}
+.temporadas img{
+    box-shadow: 0px 7px 6px -1px rgba(0, 0, 0, 0.47);
+    width:550px;
+}
+.meio{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+.formulario {
+    width: 50%;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: rgba(237, 235, 235, 0.74);
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+.formulario__titulo {
+    text-align: center;
+}
+.formulario__campos {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.formulario__campos input,
+textarea {
+    background-color: rgb(238, 239, 240);
+    color: rgb(64, 64, 64);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(64, 64, 64);
+}
+
+.formulario__botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.formulario__botoes button {
+    height: 30px;
+    width: 70px;
+    background-color: rgb(168, 168, 253);
+    border: none;
+    border-radius: 5px;
+    color: rgb(64, 64, 64);
+}
+
+.formulario__botoes button[type="submit"] {
+    font-weight: bold;
+}
+
+.formulario__botoes button:hover {
+    background-color: rgb(98, 98, 250);
+    color: rgb(255, 255, 255);
+}
+input[type="text"]:disabled::placeholder{
+    color:rgb(255, 255, 255);
+
+}
+input:focus{
+    outline: 1px rgb(255, 255, 255);
+    border: none;
+}
+input:invalid{
+    background-color: blue;
+}
+/*.especial{
+    display: flex;
+    justify-content: space-around;
+}*/
+@media (max-width: 768px) {
+    html {
+      font-size: 12px;
+    }
+    
+    header {
+      background-color: yellow;
+    }
+    
+  }
